@@ -1,0 +1,9 @@
+
+state_forecasting.m is the main code calls all other code. 
+
+First, import the data, 
+Second, pull the data for the state that we are interested in interest
+Third, run the multistar code to find the best estimates of parameters 
+Fourth, use the final points of simulation which is from the first day of outbreak to the first day of relaxing restrictions, 
+as initial conditions for the second multistart fit and estimate the parameters again. 
+repead this process again and again.
